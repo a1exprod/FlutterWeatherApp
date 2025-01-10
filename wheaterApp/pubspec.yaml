@@ -1,0 +1,74 @@
+name: wheaterapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.16
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  lottie: ^3.1.3
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#ffffff"
+
+
+  flutter_native_splash: ^2.0.1
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/icons/
+
+  fonts:
+    - family: F1-black
+      fonts:
+        - asset: assets/fonts/Formula1-Black.ttf
+
+    - family: F1-bold-w
+      fonts:
+        - asset: assets/fonts/Formula1-Bold_web.ttf
+
+    - family: F1-italic
+      fonts:
+        - asset: assets/fonts/Formula1-Italic.ttf
+
+    - family: F1-regular
+      fonts:
+        - asset: assets/fonts/Formula1-Regular-1.ttf
+
+    - family: F1-wide
+      fonts:
+        - asset: assets/fonts/Formula1-Wide.ttf
+
+
+
+
+
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
